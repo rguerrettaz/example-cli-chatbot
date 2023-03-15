@@ -1,0 +1,6 @@
+.git/
+bin/
+pyvenv.cfg
+include/
+lib/
+openai-history.log
