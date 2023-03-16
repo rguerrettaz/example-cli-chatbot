@@ -10,7 +10,12 @@ A Python chatbot implemented with official OpenAI API using model `gpt-3.5-turbo
 ```bash
 python3 -m venv .
 source bin/activate
+
+# To deactivate the virtual env
+deactivate
 ```
+
+This app was built with Python v 3.11.1.
 
 3. Install required packages
 
