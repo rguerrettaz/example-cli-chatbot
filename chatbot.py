@@ -1,11 +1,14 @@
 import os
 import openai
 import logging as log
+from dotenv import load_dotenv
+
+load_dotenv()
 
 log.basicConfig(filename='openai-history.log', encoding='utf-8', level=log.DEBUG)
 
 # Load your API key from an environment variable or secret management service
-openai.api_key = ""
+openai.api_key = os.getenv('OPEN_AI_API_KEY')
 
 messages=[
     {

@@ -22,7 +22,13 @@ deactivate
 python3 -m pip install -r requirements.txt
 ```
 
-4. Get your OpenAI API Key <a href="https://platform.openai.com/account/api-keys" target="_blank">here</a>, and set `openai.api_key` in `chatbot.py`.
+4. Get your OpenAI API Key <a href="https://platform.openai.com/account/api-keys" target="_blank">here</a>
+
+Once you have an API key create a .env file and set OPEN_AI_API_KEY environment variable.
+```
+touch .env
+echo 'OPEN_AI_API_KEY = "your key here"' >> .env
+```
 
 5. Run the program with
 ```
