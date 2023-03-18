@@ -26,7 +26,6 @@ python3 -m pip install -r requirements.txt
 
 Once you have an API key create a .env file and set OPEN_AI_API_KEY environment variable.
 ```
-touch .env
 echo 'OPEN_AI_API_KEY = "your key here"' >> .env
 ```
 
