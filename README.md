@@ -1,6 +1,6 @@
 # Chatbot
 
-A Python chatbot implemented with official OpenAI API using model `gpt-3.5-turbo`.
+A Python chatbot implemented with official OpenAI API using model `gpt-4`.
 
 ## Setup
 1. Clone code from github and cd into directory
@@ -34,7 +34,7 @@ echo 'OPEN_AI_API_KEY = "your key here"' >> .env
 python3 chatbot.py
 ```
 
-## GPT-3.5 Turbo Prompts
+## GPT-4 Prompts
 
 The API takes a collection of messages. Messages have 3 possible roles: `system`, `user`, and `assistant`.
 
